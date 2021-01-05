@@ -5,58 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animação de Digitação</title>
     <link rel="icon" href="images/css.jpg">
+    <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background: rgb(36, 36, 36);
-            min-width: 300px;
-        }
-
-        .line {
-            height: 40px;
-            border-right: 2px solid rgba(255, 255, 255, 75);
-            color: rgba(255, 255, 255, 75);
-            font-size: 3em;
-            font-family: 'Special Elite', cursive;
-            margin: 0 auto;
-            white-space: nowrap;
-            overflow: hidden;
-        }
-
-        .typing-animation {
-            animation: blinkCursor 500ms steps(24) infinite normal, typing 4s steps(24) 1s normal both;
-        }
-
-        @keyframes typing {
-            from {
-                width: 0;
-            }
-            to {
-                width: 15em;
-            }
-        }
-
-        @keyframes blinkCursor{
-            from {
-                border-right-color: rgba(255, 255, 255, 75);
-            }
-            to {
-                border-right-color: transparent;
-            }
-        }
-    </style>
     <p class="line typing-animation">Olá, eu sou Rafael Batista! =)</p>
 </body>
 </html>
