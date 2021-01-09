@@ -16,7 +16,7 @@ body {
     height: 40px;
     border-right: 2px solid rgba(255, 255, 255, 75);
     color: rgba(255, 255, 255, 75);
-    font-size: 3em;
+    font-size: min(45px, 5vw);
     font-family: 'Special Elite', cursive;
     margin: 0 auto;
     white-space: nowrap;
@@ -47,14 +47,12 @@ body {
 
 @media (max-width: 768px) {
     .line {
-        font-size: 2em;
         height: 30px;
     }
 }
 
 @media (max-width: 492px) {
     .line {
-        font-size: 1em;
-        height: 15px;
+        height: 18px;
     }
 }
