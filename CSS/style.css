@@ -44,3 +44,17 @@ body {
         border-right-color: transparent;
     }
 }
+
+@media (max-width: 768px) {
+    .line {
+        font-size: 2em;
+        height: 30px;
+    }
+}
+
+@media (max-width: 492px) {
+    .line {
+        font-size: 1em;
+        height: 15px;
+    }
+}
